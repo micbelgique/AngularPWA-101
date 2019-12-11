@@ -9,6 +9,6 @@ export class ThisisaserviceService {
   constructor() { }
 
   public getData(): any {
-
+    return this.arr;
   }
 }

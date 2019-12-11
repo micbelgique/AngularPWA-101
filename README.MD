@@ -45,4 +45,5 @@ Dans le dossier src, vous allez trouver les 2 fichiers créés par l'Angular CLI
 Pour le moment, vous allez noter des données en dur dans votre service. Par après, vous verrez comment le faire une API par exemple.
 
 Dans le service, on va créer un tableau d'Any.
-![Créer un tableau arr privé]()
+![Créer un tableau arr privé](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/CreateArrayAny.png)
+Ensuite, nous allons créer une fonction qui va renvoyer un type Any et qui sera chargée de renvoyer les données.
