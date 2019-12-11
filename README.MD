@@ -55,3 +55,6 @@ Ensuite, nous allons créer une fonction qui va renvoyer un type Any et qui sera
 Pour bien faire, il faut qu'on puisse ajouter des données dans notre système. Pour se faire, nous allons donc créer une fonction qui va renvoyer un booléen. Si il a réussi à l'ajouter, se sera true, sinon, ce sera false.
 
 ![Créer une function AddData](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/AddDataFunction.png)
+
+Et si on a ajouté une donnée qu'on ne voulait pas ? Il faut une fonction qui nous permet de retirer ces données! On va donc créer une fonction qui va renvoyer un booléen. Si il réussit à trouver la donnée, alors il va la supprimer et renvoyer true. Sinon, il renverra un false.
+![Créer une function DeleteData](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/DeleteDataFunction.png)

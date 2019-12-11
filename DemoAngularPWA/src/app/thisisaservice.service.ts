@@ -19,4 +19,16 @@ export class ThisisaserviceService {
       return false;
     }
   }
+  public deleteData(data: string): boolean {
+    this.arr.forEach(
+      item => {
+        if (item === data) {
+          const index = this.arr.indexOf(item, 0);
+          this.arr.splice(index, 1);
+          return true;
+        }
+      }
+    );
+    return false;
+  }
 }
