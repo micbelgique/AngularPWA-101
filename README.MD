@@ -58,3 +58,8 @@ Pour bien faire, il faut qu'on puisse ajouter des données dans notre système. 
 
 Et si on a ajouté une donnée qu'on ne voulait pas ? Il faut une fonction qui nous permet de retirer ces données! On va donc créer une fonction qui va renvoyer un booléen. Si il réussit à trouver la donnée, alors il va la supprimer et renvoyer true. Sinon, il renverra un false.
 ![Créer une function DeleteData](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/DeleteDataFunction.png)
+
+## Récupérer les données dans vos components
+
+Une fois votre service terminé, vous pouvez l'utilisez dans votre component en l'appelant comme ceci:
+![APpeler le service](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/CallService.png)

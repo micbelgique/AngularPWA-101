@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ThisisaserviceService } from '../thisisaservice.service';
 
 @Component({
   selector: 'app-lenomdevotrecomponent',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LenomdevotrecomponentComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private thisIsAService: ThisisaserviceService
+  ) { }
 
   ngOnInit() {
   }
