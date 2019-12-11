@@ -44,6 +44,14 @@ Dans le dossier src, vous allez trouver les 2 fichiers créés par l'Angular CLI
 
 Pour le moment, vous allez noter des données en dur dans votre service. Par après, vous verrez comment le faire une API par exemple.
 
-Dans le service, on va créer un tableau d'Any.
+Dans le service, on va créer un tableau de string.
+
 ![Créer un tableau arr privé](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/CreateArrayAny.png)
+
 Ensuite, nous allons créer une fonction qui va renvoyer un type Any et qui sera chargée de renvoyer les données.
+
+![Créer une fonction getData](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/GetDataFunction.png)
+
+Pour bien faire, il faut qu'on puisse ajouter des données dans notre système. Pour se faire, nous allons donc créer une fonction qui va renvoyer un booléen. Si il a réussi à l'ajouter, se sera true, sinon, ce sera false.
+
+![Créer une function AddData](https://github.com/micbelgique/AngularPWA-101/blob/master/pictures/AddDataFunction.png)
