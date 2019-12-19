@@ -1,1 +1,3 @@
-<p>lenomdevotrecomponent works!</p>
+<input [(ngModel)]="this.currentData" type="text">
+<button (click)="this.addData()"></button>
+<p *ngFor="let item of this.data">{{item}}</p>
