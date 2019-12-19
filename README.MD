@@ -5,7 +5,7 @@
 dans VS Code, lancez le terminal et écrivez:
 
 ``` command-line
-npm i -g angular-cli
+npm i -g @angular/cli
 ```
 
 ## Créer votre première application Angular
